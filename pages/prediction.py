@@ -194,6 +194,8 @@ res = st.session_state.results
 prob = res["prob"]
 fields = res["fields"]
 
+st.write(fields)
+st.write("Probability:",prob)
 
 if prob >= 0.90:
     level_class = "badge-high"
