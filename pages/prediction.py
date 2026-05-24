@@ -195,7 +195,7 @@ prob = res["prob"]
 fields = res["fields"]
 
 
-if prob >= 0.90:
+if prob >= 0.80:
     level_class = "badge-high"
     level_text = "High Risk"
     color_hex = "#c81e1e"
