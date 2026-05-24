@@ -194,8 +194,8 @@ res = st.session_state.results
 prob = res["prob"]
 fields = res["fields"]
 
-st.write("Probability:", prob)
-if prob >= 0.65:
+
+if prob >= 0.80:
     level_class = "badge-high"
     level_text = "High Risk"
     color_hex = "#c81e1e"
@@ -204,7 +204,7 @@ if prob >= 0.65:
         "Setting healthy boundaries and checking what resources are available at work "
         "could be a helpful next step."
     )
-elif prob >= 0.35:
+elif prob >= 0.55:
     level_class = "badge-medium"
     level_text = "Moderate Risk"
     color_hex = "#b27b00"
