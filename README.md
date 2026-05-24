@@ -36,7 +36,7 @@ Recall was the primary metric — missing someone who needs support is worse tha
 
 ## Tech Stack
 
-Python • Pandas • NumPy • Scikit-Learn • XGBoost • Streamlit • Seaborn • GitHub
+Python • Pandas • NumPy • Scikit-Learn •  Streamlit • Seaborn • GitHub
 
 ## Reference
 Paul, M. & Das, S. (2023). Mental health in tech workplace: An analysis. IJSRA, 10(01), 221–233. (https://doi.org/10.30574/ijsra.2023.10.1.0743)
