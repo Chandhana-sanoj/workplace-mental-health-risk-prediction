@@ -12,8 +12,6 @@ The 2014 and 2016 OSMI surveys used completely different column formats — this
 - Target: `treatment`(sought mental health support — Yes/No)
 - Class balance: ~55% Yes / ~45% 
 
----
-
 ## Pipeline
 
 - Schema mapping across two survey years
@@ -22,7 +20,6 @@ The 2014 and 2016 OSMI surveys used completely different column formats — this
 - OrdinalEncoder, OneHotEncoder, LabelEncoder, MinMaxScaler
 - 6 models compared, optimised for Recall
 - Deployed as Streamlit web app
----
 
 ## Results
 
@@ -37,18 +34,13 @@ The 2014 and 2016 OSMI surveys used completely different column formats — this
 
 Recall was the primary metric — missing someone who needs support is worse than a false alarm.
 
----
-
 ## Tech Stack
 
 Python • Pandas • NumPy • Scikit-Learn • XGBoost • Streamlit • Seaborn • GitHub
 
----
-
 ## Reference
 Paul, M. & Das, S. (2023). Mental health in tech workplace: An analysis. IJSRA, 10(01), 221–233. (https://doi.org/10.30574/ijsra.2023.10.1.0743)
 
----
 ## Ethical Note
 
 This tool is intended as a screening aid only — not a medical diagnosis. Always involve qualified professionals in mental health decisions.
