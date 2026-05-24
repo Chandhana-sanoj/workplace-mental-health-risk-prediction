@@ -25,7 +25,7 @@ The 2014 and 2016 OSMI surveys used completely different column formats — this
 
 | Model | Recall | F1 | Accuracy |
 |--------|--------|----|-----------|
-| Logistic Regression (Tuned) ✓ | 0.802 | 0.738 | 0.687 |
+| Logistic Regression (Tuned) | 0.802 | 0.738 | 0.687 |
 | Random Forest (Tuned) | 0.737 | 0.714 | 0.675 |
 | XGBoost | 0.696 | 0.668 | 0.623 |
 | KNN | 0.621 | 0.642 | 0.619 |
