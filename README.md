@@ -3,6 +3,10 @@ Live app → (https://workplace-mental-health-risk-prediction.streamlit.app/)
 
 A Machine Learning web application that predicts whether a tech industry employee may benefit from mental health support, based on workplace conditions and personal factors. Built using the OSMI Mental Health in Tech Survey (2014 + 2016).
 
+## Demo
+
+![Application Demo](screenshots/demo.gif)
+
 ## Dataset
 
 The 2014 and 2016 OSMI surveys used completely different column formats — this project includes a schema mapping pipeline to align both years into one clean dataset.
