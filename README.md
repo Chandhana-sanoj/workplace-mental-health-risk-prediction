@@ -11,7 +11,7 @@ A Machine Learning web application that predicts whether a tech industry employe
 
 The 2014 and 2016 OSMI surveys used completely different column formats — this project includes a schema mapping pipeline to align both years into one clean dataset.
 
-- 2,679 survey responses
+- 2,662 survey responses
 - 55 duplicate records identified and removed
 - Final dataset: 2,607 survey responses
 - 16 features across demographic, company, and workplace categories
