@@ -8,6 +8,8 @@ A Machine Learning web application that predicts whether a tech industry employe
 The 2014 and 2016 OSMI surveys used completely different column formats — this project includes a schema mapping pipeline to align both years into one clean dataset.
 
 - 2,679 survey responses
+- 55 duplicate records identified and removed
+- Final dataset: 2,607 survey responses
 - 16 features across demographic, company, and workplace categories
 - Target: `treatment`(sought mental health support — Yes/No)
 - Class balance: ~55% Yes / ~45% 
@@ -16,6 +18,7 @@ The 2014 and 2016 OSMI surveys used completely different column formats — this
 
 - Schema mapping across two survey years
 - Value alignment, Gender standardisation, Age filtering
+- Data quality assessment (missing values and duplicate detection)
 - Train-test split before encoding — no data leakage
 - OrdinalEncoder, OneHotEncoder, LabelEncoder, MinMaxScaler
 - 6 models compared, optimised for Recall
@@ -25,12 +28,12 @@ The 2014 and 2016 OSMI surveys used completely different column formats — this
 
 | Model | Recall | F1 | Accuracy |
 |--------|--------|----|-----------|
-| Logistic Regression (Tuned) | 0.802 | 0.738 | 0.687 |
-| Random Forest (Tuned) | 0.737 | 0.714 | 0.675 |
-| XGBoost | 0.696 | 0.668 | 0.623 |
-| KNN | 0.621 | 0.642 | 0.619 |
-| Naive Bayes | 0.621 | 0.652 | 0.636 |
-| Decision Tree | 0.597 | 0.611 | 0.582 |
+| Logistic Regression (Tuned) | 0.798 | 0.751 | 0.709 |
+| XGBoost (Tuned) | 0.774 | 0.732 | 0.690 |
+| Random Forest (Tuned) | 0.753 | 0.736 | 0.703 |
+| KNN | 0.645 | 0.673 | 0.655 |
+| Naive Bayes | 0.568 | 0.631 | 0.634 |
+| Decision Tree | 0.638 | 0.639 | 0.603 |
 
 Recall was the primary metric — missing someone who needs support is worse than a false alarm.
 
