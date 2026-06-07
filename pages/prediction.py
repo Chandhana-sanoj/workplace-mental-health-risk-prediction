@@ -4,7 +4,6 @@ import os
 # Page config
 st.set_page_config(
     page_title="Assessment Results - Workplace Mental Health Predictor",
-    page_icon="🧠",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
